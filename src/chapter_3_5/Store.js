@@ -3,8 +3,8 @@ import reducer from './Reducer'
 
 const initValues = {
     'First': 0,
-    'Second': 10,
-    'Third': 20
+    'Second': 11,
+    'Third': 22
 };
 
 const store = createStore(reducer, initValues);

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import ControlPanel from './chapter_2/ControlPanel'
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <div>react and redux</div>,
+    <ControlPanel />
     document.getElementById('root')
 );
 registerServiceWorker();

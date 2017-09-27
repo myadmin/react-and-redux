@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import ClickCount from './chapter_1/ClickCount';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <div>react and redux</div>,
+    <ClickCount />
     document.getElementById('root')
 );
 registerServiceWorker();
